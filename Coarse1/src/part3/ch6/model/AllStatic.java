@@ -1,4 +1,4 @@
-package part3.ch06.model;
+package part3.ch6.model;
 
 public class AllStatic {
 

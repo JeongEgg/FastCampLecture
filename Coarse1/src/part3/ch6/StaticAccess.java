@@ -1,6 +1,6 @@
-package part3.ch06;
+package part3.ch6;
 
-import part3.ch06.model.MyUtil;
+import part3.ch6.model.MyUtil;
 
 public class StaticAccess {
     public static void main(String[] args) {

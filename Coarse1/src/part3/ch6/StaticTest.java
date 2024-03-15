@@ -1,15 +1,14 @@
-package part3.ch06;
+package part3.ch6;
 
-public class NoneStaticTest {
+public class StaticTest {
     public static void main(String[] args) {
         int a=10;
         int b=20;
-        NoneStaticTest st = new NoneStaticTest();
-        int sum = st.hap(a,b);
+        int sum = hap(a,b);
         System.out.println("sum = "+sum);
     }
 
-    public int hap(int a, int b){
+    public static int hap(int a, int b){
         int v = a+b;
         return v;
     }
