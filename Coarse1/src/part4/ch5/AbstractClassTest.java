@@ -5,6 +5,7 @@ import part4.ch5.model2.Cat;
 import part4.ch5.model2.Dog;
 
 public class AbstractClassTest {
+    // 2
     public static void main(String[] args) {
         Animal ani = new Dog();
         ani.eat();
