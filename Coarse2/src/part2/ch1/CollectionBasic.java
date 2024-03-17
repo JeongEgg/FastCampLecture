@@ -1,9 +1,9 @@
-package part4.ch2;
+package part2.ch1;
 
 import java.util.ArrayList;
 
 public class CollectionBasic {
-    // 1
+    // 4
     public static void main(String[] args) {
         // int --x--> Object[] -> ArrayList
         // Integer(Wrapper) --o--> Object[] -> ArrayList

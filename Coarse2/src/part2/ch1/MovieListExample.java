@@ -1,11 +1,11 @@
-package part4.ch2;
+package part2.ch1;
 
-import part4.ch2.model2.Movie;
+import part2.ch1.model2.Movie;
 
 import java.util.ArrayList;
 
 public class MovieListExample {
-    // 2
+    // 5
     public static void main(String[] args) {
         ArrayList<Movie> movieList = new ArrayList<>();
 

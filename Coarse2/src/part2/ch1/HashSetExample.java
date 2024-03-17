@@ -1,10 +1,10 @@
-package part4.ch2;
+package part2.ch1;
 
 import java.util.HashSet;
 import java.util.Set;
 
 public class HashSetExample {
-    // 3
+    // 5
     public static void main(String[] args) {
         Set<String> set = new HashSet<>();
 

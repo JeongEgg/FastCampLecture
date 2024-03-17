@@ -1,10 +1,10 @@
-package part4.ch2;
+package part2.ch1;
 
 import java.util.HashSet;
 import java.util.Set;
 
 public class UniqueNumbers {
-    // 3
+    // 6
     public static void main(String[] args) {
         int[] numbers = {1,2,3,4,5,2,4,6,7,1,3};
 

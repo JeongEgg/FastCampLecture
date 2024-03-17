@@ -1,10 +1,10 @@
-package part4.ch2;
+package part2.ch1;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class MapExample {
-    // 4
+    // 6
     public static void main(String[] args) {
         Map<String, Integer> studentScores = new HashMap<>();
 

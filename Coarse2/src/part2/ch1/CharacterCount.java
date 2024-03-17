@@ -1,8 +1,9 @@
-package part4.ch2;
+package part2.ch1;
 
 import java.util.HashMap;
 
 public class CharacterCount {
+    // 6
     public static void main(String[] args) {
         String str = "Hello,World!";
         HashMap<Character, Integer> charCountMap = new HashMap<Character, Integer>();

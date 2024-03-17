@@ -1,4 +1,4 @@
-package part4.ch2.model2;
+package part2.ch1.model2;
 
 public class Movie {
     private String title;

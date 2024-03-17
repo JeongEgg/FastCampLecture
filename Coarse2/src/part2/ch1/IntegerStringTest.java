@@ -1,4 +1,4 @@
-package part4.ch1;
+package part2.ch1;
 
 public class IntegerStringTest {
     // 2

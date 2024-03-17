@@ -1,9 +1,9 @@
-package part4.ch2;
+package part2.ch1;
 
 import java.util.ArrayList;
 
 public class ListExample {
-    // 2
+    // 5
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
 
