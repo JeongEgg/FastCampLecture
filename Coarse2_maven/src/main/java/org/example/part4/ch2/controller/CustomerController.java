@@ -1,4 +1,4 @@
-package org.example.part4.ch2;
+package org.example.part4.ch2.controller;
 
 import org.example.part4.ch2.controller.MedicalRecordController;
 import org.example.part4.ch2.model.Customer;

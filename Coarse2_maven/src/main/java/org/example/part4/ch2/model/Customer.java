@@ -1,4 +1,4 @@
-package org.example.part4.ch2;
+package org.example.part4.ch2.model;
 
 import org.example.part4.ch2.model.MedicalRecord;
 
@@ -12,9 +12,11 @@ public class Customer {
     private String address;
     private String species;
     private int birthYear;
-    private List<MedicalRecord> medicalRecords; // 진료기록을 저장하는 리스트
+    // 진료기록을 저장하는 리스트
+    private List<MedicalRecord> medicalRecords;
     public Customer(){}
-    public Customer(String phoneNumber, String ownerName, String petName, String address, String species, int birthYear) {
+    public Customer(String phoneNumber, String ownerName, String petName,
+                    String address, String species, int birthYear) {
         this.phoneNumber = phoneNumber;
         this.ownerName = ownerName;
         this.petName = petName;
@@ -23,51 +25,39 @@ public class Customer {
         this.birthYear = birthYear;
         this.medicalRecords = new ArrayList<>(); // 빈 리스트로 초기화
     }
-
     public String getPhoneNumber() {
         return phoneNumber;
     }
-
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-
     public String getOwnerName() {
         return ownerName;
     }
-
     public void setOwnerName(String ownerName) {
         this.ownerName = ownerName;
     }
-
     public String getPetName() {
         return petName;
     }
-
     public void setPetName(String petName) {
         this.petName = petName;
     }
-
     public String getAddress() {
         return address;
     }
-
     public void setAddress(String address) {
         this.address = address;
     }
-
     public String getSpecies() {
         return species;
     }
-
     public void setSpecies(String species) {
         this.species = species;
     }
-
     public int getBirthYear() {
         return birthYear;
     }
-
     public void setBirthYear(int birthYear) {
         this.birthYear = birthYear;
     }
