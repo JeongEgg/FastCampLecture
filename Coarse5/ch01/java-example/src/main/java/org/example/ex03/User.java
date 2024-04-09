@@ -1,5 +1,8 @@
 package org.example.ex03;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class User {
     private String name;
     private int age;
